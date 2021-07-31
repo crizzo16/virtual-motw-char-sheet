@@ -1,0 +1,42 @@
+[
+    {
+        "id": 0,
+        "name": "The Traveler",
+        "luckMove": "",
+        "improvements": [],
+        "advancedImprovements": [],
+        "background": [{
+            "name": "Means of Transport",
+            "options": [
+                {
+                    "name": "It's Bigger On The Inside",
+                    "text": "Your time machine is multidimensional, as small as a phone booth on the outside, but as big as a spaceship on the inside. Things inside it cannot be tracked by normal means. To travel, it disappears from one place and appears in another, but otherwise it is completely stationary and cannot be transported at all."
+                },
+                {
+                    "name": "Teleportation",
+                    "text": "You can teleport instantly if you have a clear line of sight of the destination or if you know it very well. Otherwise, you need to study the spacetime continuum for a few hours, or even days, to plan the trip, so as to not end up underground or a kilometre above the ground."
+                },
+                {
+                    "name": "88 Miles per Hour",
+                    "text": "Your time machine looks like a car or a van, not drawing much attention (in time periods after the invention of such vehicles). You can use it to move around like any other vehicle, but it depends on fuel, maintenance parts, roads etc."
+                },
+                {
+                    "name": "Time Portal",
+                    "text": "You open a time portal to your destination. You can only open one portal at a time, and it will remain active for as long as you wish. It allows you to cross it in any direction as many times as you want. But an unattended portal can also be crossed by any person, or monster…"
+                }
+            ]
+        }],
+        "moves": [
+            {
+                "type": "automatic",
+                "moves": [
+                    {
+                        "name": "Servant of Technology",
+                        "text": "You are extremely dependent on technology, having difficulties in relating to the supernatural. You get -1 ongoing to <span style='font-weight:bold'>use magic</span> or any other moves related to the supernatural or magic."
+                    }
+                ]
+            }
+        ]
+
+    }
+]

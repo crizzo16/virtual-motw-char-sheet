@@ -1,0 +1,44 @@
+body {
+    font-family: serif;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.text-center{text-align:center;}
+
+.flex {display:flex}
+.f-wrap {flex-wrap: wrap;}
+.f-around{justify-content: space-around;}
+
+
+.w-10{width:10%}
+.w-20{width:20%}
+.w-30{width:30%}
+.w-40{width:40%}
+.w-50{width:50%}
+.w-60{width:60%}
+.w-70{width:70%}
+.w-80{width:80%}
+.w-90{width:90%}
+.w-100{width:100%}
+
+h1, h2, h3, h4 {font-family:cursive}
+
+.move {
+    width: 22%;
+    margin: 2%;
+    padding: 30px;
+    border: 1px solid green;
+}
+
+
+
+
+.border-blue {border:1px solid blue}
+.border-lime {border:1px solid lime}
+.border-mag {border:1px solid magenta}
+.border-red {border:1px solid red}

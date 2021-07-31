@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "name": "Peggy 'Sunshine' Murray",
+        "playbook": "The Gumshoe",
+        "setting": "",
+        "look": "woman, angelic face, vintage clothes",
+        "background": ["My Word is my Life"],
+        "ratings": [1,0,2,1,-1],
+        "moves": ["Hacker with a Dragon Tattoo"],
+        "gear": ["digital sound recorder", "remote-controlled camera drone"],
+        "weapons": ["brass knuckles"]
+    },
+    {
+        "id": 1,
+        "name": "Eddie Hensley",
+        "playbook": "The Expert",
+        "setting": "",
+        "look": "woman, stern face, utility clothes",
+        "background": ["Protection Spells", "Armory", "Workshop"],
+        "ratings": [2,0,1,0,0],
+        "moves": ["Preparedness", "It Wasn't As Bad As It Looked"],
+        "gear": [],
+        "weapons": ["cold iron sword", "flamethrower", "magnum"]
+    },
+    {
+        "id": 2,
+        "name": "Bel Fisher",
+        "playbook": "The Expert",
+        "setting": "Cross Time & Space",
+        "look": "woman, thoughtful face, casual clothes",
+        "background": ["Lore Library", "Armory", "Infirmary"],
+        "ratings": [1,0,2,1,-1],
+        "moves": ["I've Read About This Sort Of Thing", "Preparedness", "It Wasn't As Bad As It Looked"],
+        "gear": [],
+        "weapons": ["silver sword", "magical dagger"]
+    },
+    {
+        "id": 3,
+        "name": "Chell",
+        "playbook": "The Traveler",
+        "setting": "",
+        "look": "woman, expressionless face, tactical costume",
+        "background": ["Teleportation"],
+        "ratings": [-1,2,-1,2,0],
+        "moves": ["Prescience", "Neural Implants", "Android/Cyborg"],
+        "gear": ["Photonic Binoculars", "Instant Translator"],
+        "weapon": []
+    }
+]

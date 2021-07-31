@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Kick Some Ass",
+        "stat": "Tough",
+        "text": [
+            {
+                "type": "text",
+                "text": "When you get into a fight and kick some ass, <span style='font-weight:bold'>roll +Tough.</span>"
+            },
+            {
+                "type": "text",
+                "text": "<span style='font-weight:bold'>On a 7+</span>, you and whatever you're fighting inflict harm on each other. The amount of harm is based on the esablished dangers in the game. That usually means you inflict the harm rating of your weapon and your enemy inflicts their attack's harm rating on you."
+            },
+            {
+                "type": "list",
+                "text": "<span style='font-weight:bold'>On a 10+</span>, choose one extra effect:",
+                "list": ["You gain the advantage: take +1 forward, or give +1 forward to another hunter.", "You inflict terrible harm (+1 harm).", "You suffer less harm (-1 harm).", "You force them where you want them."]
+            }
+        ]
+    },
+    {
+        "name": "Act Under Pressure",
+        "stat": "Cool",
+        "text": [
+            {
+                "type": "text",
+                "text": "When you act under pressure, <span style='font-weight:bold'>roll +Cool</span>."
+            },
+            {
+                "type": "text",
+                "text": "<span style='font-weight:bold'>On a 10+</span> you do what you set out to."
+            },
+            {
+                "type": "text",
+                "text": "<span style='font-weight:bold'>On a 7-9</span> the Keeper is going to give you a worse outcome, hard choice, or price to pay."
+            }
+        ]
+    }
+]
