@@ -10,6 +10,7 @@ let sheet = {
         }).done(function (result) {
             sheet.allChars = result;
             sheet.parsePlaybooks();
+            sheet.loadPCButtons();
         });
     },
     parsePlaybooks: function () {
@@ -32,20 +33,16 @@ let sheet = {
     },
     loadBasicMoves: function () {
         $("#moves-basic").html("");
-        console.log("firing");
-        console.log(sheet.basicMoves);
         sheet.basicMoves.forEach(function (item, index, array) {
-            let fullMove = $("<div>").addClass("border-red move");
+            let fullMove = $("<div>").addClass("move");
 
             let moveName = $("<div>").addClass("move-name").addClass(item.stat).html(item.name);
             fullMove.append(moveName);
 
             item.text.forEach(function (jitem, jindex, jarray) {
-                console.log("jitem: ", jitem);
                 let moveText = $("<p>").addClass("move-text").html(jitem.text);
                 fullMove.append(moveText);
                 if (jitem.type == "list") {
-                    console.log(jitem.list);
                     let moveList = $("<ul>");
                     jitem.list.forEach(function (kitem, kindex, karray) {
                         let moveListItem = $("<li>").html(kitem);
@@ -57,9 +54,28 @@ let sheet = {
 
             $("#moves-basic").append(fullMove);
         });
+    },
+    loadPCButtons: function() {
+        $("#pc-buttons").html("");
+        sheet.allChars.forEach(function (item, index, array) {
+            let button = $("<div>").addClass("pc-button").text(item.name).attr("char-id", item.id);
+            if (index == 0) button.addClass("pc-selected");
+            $("#pc-buttons").append(button);
+        });
+    },
+    selectPC: function() {
+        const num = $(this).attr("char-id");
+        const sel = $(".pc-selected").attr("char-id");
+        if (sel != num) {
+            $(".pc-selected").removeClass("pc-selected");
+            $(this).addClass("pc-selected");
+            sheet.selectedChar = num;
+        }
     }
 }
 
 $(document).ready(function () {
     sheet.parseCharacters();
 });
+
+$(document).on("click", ".pc-button", sheet.selectPC);
