@@ -35,11 +35,11 @@ let sheet = {
         $("#moves-basic").html("");
         sheet.basicMoves.forEach(function (item, index, array) {
             if (item.stat != "Weird" || (item.stat == "Weird" && item.name == sheet.allChars[sheet.selectedChar].weirdMove)) {
-                let fullMove = $("<div>").addClass("move");
+                let fullMove = $("<div>").addClass("move").attr("move-id", item.id);
 
                 let moveName = $("<div>").addClass("move-name").addClass(item.stat).html(item.name);
                 fullMove.append(moveName);
-                let moveWrapper = $("<div>").addClass("move-wrapper").attr("move-id", item.id);
+                let moveWrapper = $("<div>").addClass("move-wrapper closed").attr("move-id", item.id);
 
                 item.text.forEach(function (jitem, jindex, jarray) {
                     let moveText = $("<p>").addClass("move-text").html(jitem.text);
@@ -76,6 +76,9 @@ let sheet = {
 
             sheet.loadBasicMoves();
         }
+    },
+    toggleMove: function () {
+        $(this).find(".move-wrapper").toggleClass("closed");
     }
 }
 
@@ -84,3 +87,4 @@ $(document).ready(function () {
 });
 
 $(document).on("click", ".pc-button", sheet.selectPC);
+$(document).on("click", ".move", sheet.toggleMove);

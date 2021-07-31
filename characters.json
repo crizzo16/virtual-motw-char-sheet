@@ -42,7 +42,7 @@
         "id": 3,
         "name": "Chell",
         "playbook": "The Traveler",
-        "weirdMove": "",
+        "weirdMove": "Past Lives",
         "setting": "",
         "look": "woman, expressionless face, tactical costume",
         "background": ["Teleportation"],
