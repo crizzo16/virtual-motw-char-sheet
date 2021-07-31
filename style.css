@@ -48,3 +48,12 @@ h1, h2, h3, h4 {font-family:cursive}
 .border-lime {border:1px solid lime}
 .border-mag {border:1px solid magenta}
 .border-red {border:1px solid red}
+
+
+.Tough {
+    background: peachpuff;
+}
+
+.Cool {
+    background: lavender;
+}

@@ -35,5 +35,34 @@
                 "text": "<span style='font-weight:bold'>On a 7-9</span> the Keeper is going to give you a worse outcome, hard choice, or price to pay."
             }
         ]
+    },
+    {
+        "name": "Help Out",
+        "stat": "Cool",
+        "text": [
+            {
+                "type": "text",
+                "text": "When you help another hunter, <span style='font-weight:bold'>roll +Cool</span>."
+            },
+            {
+                "type": "text",
+                "text": "<span style='font-weight:bold'>On a 10+</span> your help grant them +1 to their roll."
+            },
+            {
+                "type": "text",
+                "text": "<span style='font-weight:bold'>On a 7-9</span> your help grants them +1 to their roll, but you also expose yourself to trouble or danger."
+            }
+        ]
+    },
+    {
+        "name": "Investigate A Mystery",
+        "stat": "Sharp",
+        "text": [
+            {
+                "type": "list",
+                "text": "When you investigate a mystery, <span style='font-weight:bold'>roll +Sharp. On a 10+</span> hold 2, and <span style='font-weight:bold'>on a 7-9</span> hold 1. One hold can be spent to ask the Keeper one of the following questions:",
+                "list": ["What happened here?", "What sort of creature is it?", "What can it do?", "What can hurt it?", "Where did it go?", "What was it going to do?", "What is being concealed here?"]
+            }
+        ]
     }
 ]
