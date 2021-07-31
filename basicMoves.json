@@ -126,5 +126,68 @@
                 "text": "If you act on the answers, you get +1 ongoing while the information is relevant."
             }
         ]
+    },
+    {
+        "name": "Use Magic",
+        "stat": "Weird",
+        "text": [
+            {
+                "type": "text",
+                "text": "When you use magic, say what you're trying to achieve and how you do the spell, then roll +Weird."
+            },
+            {
+                "type": "text",
+                "text": "On a 10+, the magic works without issues: choose your effect."
+            },
+            {
+                "type": "text",
+                "text": "On a 7-9, it works imperfectly: choose your effect and a glitch. The Keeper will decide what effect the glitch has."
+            },
+            {
+                "type": "list",
+                "text": "Effects",
+                "list": ["Inflict harm (1-harm ignore-armor magic obvious", "Enchant a weapon. It gets +1 harm and +magic.", "Do one thing that is beyond human limitations.", "Bar a place or portal to a specific person or a type of creature.", "Trap a specific person, minion, or monster.", "Banish a spirit or curse from the person, object, or place it inhabits.", "Summon a monster into the world.", "Communicate with something that you do not share a language with.", "Observe another place or time.", "Heal 1-harm from an injury, or cure a disease, or neutralize a poison."]
+            },
+            {
+                "type": "list",
+                "text": "Glitches",
+                "list": ["The effect is weakened.", "The effect is of short duration.", "You take 1-harm ignore-armor.", "The magic draws immediate, unwelcome attention.", "It has a problematic side effect."]
+            },
+            {
+                "type": "list",
+                "text": "The Keeper May Say That...",
+                "list": ["The spell requires weird materials.", "The spell will take 10 seconds, 30 seconds, or 1 minute to cast.", "The spell requires ritual chanting and gestures.", "The spell requires you to draw arcane symbols.", "You need one or two people to help cast the spell.", "You need to refer to a tome of magic for the details."]
+            }
+        ]
+    },
+    {
+        "name": "Empath",
+        "stat": "Weird",
+        "text": [
+            {
+                "type": "list",
+                "text": "When you open up your brain to feel the emotions of something right there in front of you, roll +Weird",
+                "list": ["On a 10 or more, you glain a clear impressino of theri current emotional state and intentions. Take +1 forward when acting on this knowledge.", "On a 7-9, you gani a hazy impression of their current emotional state and intentions.", "On a miss, your brain is overwhelmed with emotion."]
+            },
+            {
+                "type": "text",
+                "text": "YOu can use Empath on anything with emotions (e.g. animals and some monsters), but the less human they are, the less it's safe for you. If the emotions are especially strong or alien, you might need to act under pressure regardless of how successful your roll was."
+            }
+        ]
+    },
+    {
+        "name": "Illuminated",
+        "stat": "Weird",
+        "text": [
+            {
+                "type": "text",
+                "text": "You have become enlightened, and sometimes recieve information telepathically from the Secret Masters. The Secret Masters are the benevolent conspiracy fighting to make society (or the universe) perfect. At least, that's what they told you. Sometimes, at the Keeper's discretion, they proactively send you information, advice, or orders."
+            },
+            {
+                "type": "list",
+                "text": "When you telepathically ask the Secret Masters for aid, roll +Weird:",
+                "list": ["On a 10+, the Secret Masters reveal a key fact, clue, or technique that will help you.", "On a 7-9, the Secret Masters need you to complete a task for them. Once it is done, they reveal a key fact, clue, or technique that will help you.", "On a miss, the Secret Masters' reply is terrible, garbled, or somehow dangerously wrong."]
+            }
+        ]
     }
 ]
