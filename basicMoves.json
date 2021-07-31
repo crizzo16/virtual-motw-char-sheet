@@ -189,5 +189,107 @@
                 "list": ["On a 10+, the Secret Masters reveal a key fact, clue, or technique that will help you.", "On a 7-9, the Secret Masters need you to complete a task for them. Once it is done, they reveal a key fact, clue, or technique that will help you.", "On a miss, the Secret Masters' reply is terrible, garbled, or somehow dangerously wrong."]
             }
         ]
+    },
+    {
+        "name": "No Limits",
+        "stat": "Weird",
+        "text": [
+            {
+                "type": "list",
+                "text": "When you push your physical body past its limits, roll +Weird:",
+                "list": ["On a 10+, your body obeyr your will, to the limits of physical possibility (see below), for a moment.", "On a 7-9, you do it but choose one consequence: suffer 1-harm, take -1 forward, or you need to rest right now.", "On a miss, something goes horribly wrong."]
+            },
+            {
+                "type": "list",
+                "text": "For the purposes ot this move, \"physical possibility\" means \"conceivably pssible for a human\". For example:",
+                "list": ["Physically Possible: lift an SUV, jump over a truck, pucn through a wall", "Not Physically Possible: lift a building, fly, punch a blast of energy at a foe"]
+            }
+        ]
+    },
+    {
+        "name": "Past Lives",
+        "stat": "Weird",
+        "text": [
+            {
+                "type": "list",
+                "text": "When you channel your previous incarnations to discover something, post your question and roll +Weird:",
+                "list": ["On a 10+, a past life has something useful to offer. Ask the Keeper two of the questions below.", "On a 7-9, a past life has a little experience with this. Ask the Keeper one of the questions below.", "On a miss, a past life takes over for a while."]
+            },
+            {
+                "type": "list",
+                "text": "Past Lives questions:",
+                "list": ["What did a past life discover about _______?", "How did a past life deal with _______?", "What important hidden secret can a past life show me the way to?", "What did a past life learn too late to help them?", "What does a past life advise me to do now?"]
+            },
+            {
+                "type": "text",
+                "text": "You should note down the names and time periods of your previous lives for future reference. They can't overlap in time, but otherwise may be from any time or place."
+            }
+        ]
+    },
+    {
+        "name": "Sensitive",
+        "stat": "Weird",
+        "text": [
+            {
+                "type": "list",
+                "text": "When you open your brain to the psychic environment, roll +Weird:",
+                "list": ["On a 10+, you gain a definite impression (a vision, tangible aura, overhead thought, etc.) about something important.", "On a 7-9, you gain a hazy impression about something important.", "On a miss, your brain makes contact with something dangerous."]
+            },
+            {
+                "type": "text",
+                "text": "Although you will find out something important, it won't necessarily relate to your current concerns or the mystery you are investigating right now."
+            }
+        ]
+    },
+    {
+        "name": "Trust Your Gut",
+        "stat": "Weird",
+        "text": [
+            {
+                "type": "list",
+                "text": "When you consult your instincts about what to do next, roll +Weird:",
+                "list": ["On a 10+, the Keeper will tell you where you should go. Wherever that it, it will be important. You get +1 ongoing on the way to this place.", "On a 7-9, the Keeper will tell you a general direction to go. Take +1 forward as you explore that.", "On a miss, your instincts lead you into danger."]
+            },
+            {
+                "type": "text",
+                "text": "Your gut feelings will point you somewhere important, but they do not care about your conscious concerns. To your gut, the current mystery is just one important thing amongst many."
+            }
+        ]
+    },
+    {
+        "name": "Telekinesis",
+        "stat": "Weird",
+        "text": [
+            {
+                "type": "list",
+                "text": "When you fling something with your mind, roll +Weird:",
+                "list": ["On a 10+, you move it. Choose two options and mark 1-harm.", "On a 7-9, you move it but it hurts. Choose one option and mark 2-harm.", "On a miss, something goes horribly wrong."]
+            },
+            {
+                "type": "text",
+                "text": "By default you can move something smaller than a person. You don't have much control, and you can't move it strongly enough to hurt anything."
+            },
+            {
+                "type": "list",
+                "text": "Telekinesis options (anything not picked is not true):",
+                "list": ["Something is held fast.", "Something is hurt (2-harm smash).", "Something catches fire.", "You can fling something bigger than a person.", "You keep it basically under your control.", "You suffer 1 less harm."]
+            }
+        ]
+    },
+    {
+        "name": "Weird Science",
+        "stat": "Weird",
+        "text": [
+            {
+                "type": "list",
+                "text": "When you create or adapt a device to analyse or deal with strangeness, say what it will do and roll +Weird:",
+                "list": ["On a 10+, you pick two requirements.", "On a 7-9, you pick one requirement and the Keeper picks a second one.", "On a miss, something goes horribly wrong. You are still able to create your device, but the Keeper picks three requirements."]
+            },
+            {
+                "type": "list",
+                "text": "Weird science requirements:",
+                "list": ["It needs a rare and/or weird material.", "It won't be very reliable.", "It requires huge amount of power or fuel.", "It will take a long time to get it working.", "It won't work exactly as you intended.", "You'll need help (beyond the hunters on your team) to finish it."]
+            }
+        ]
     }
 ]
