@@ -64,5 +64,67 @@
                 "list": ["What happened here?", "What sort of creature is it?", "What can it do?", "What can hurt it?", "Where did it go?", "What was it going to do?", "What is being concealed here?"]
             }
         ]
+    },
+    {
+        "name": "Manipulate Someone",
+        "stat": "Charm",
+        "text": [
+            {
+                "type": "text",
+                "text": "Once you have given them a reason, tell them what you want them to do and <span style='font-weight:bold'>roll +Charm</span>."
+            },
+            {
+                "type": "list",
+                "text": "<span style='font-weight:bold'>For a normal person:</span>",
+                "list": ["<span style='font-weight'>On a 10+</span>, then they'll do it for the reason you gave them. If you asked too much, they'll tell you the minimum it would take for them to do it (or if there's no way they'd do it.", "<span style='font-weight:bold'>On a 7-9</span>, they'll do it, but only if you do something for them right now to show that you mean it. If you asked too much, they'll tell you what, if anything, it would take for them to do it."]
+            },
+            {
+                "type": "list",
+                "text": "<span style='font-weight:bold'>For another hunter:</span>",
+                "list": ["On a 10+, if they do what you ask they mark experience and get +1 forward.", "On a 7-9, they mark experience if they do what you ask.", "On a miss, it's up to that hunter to decide how badly you offend or annoy them. They mark experience if they decide not to do what you asked. Monsters and minions cannot normally be manipulated."]
+            }
+        ]
+    },
+    {
+        "name": "Protect Someone",
+        "stat": "Tough",
+        "text": [
+            {
+                "type": "text",
+                "text": "When you prevent harm to another character, roll +Tough."
+            },
+            {
+                "type": "text",
+                "text": "On a 7+, you protect them okay but you'll suffer some or all of the harm they were going to get."
+            },
+            {
+                "type": "list",
+                "text": "On a 10+ choose an extra:",
+                "list": ["You suffer little harm (-1 harm).", "All impending danger is now focused on you.", "You inflict harm on the enemy.", "You hold the enemy back."]
+            }
+        ]
+    },
+    {
+        "name": "Read A Bad Situation",
+        "stat": "Sharp",
+        "text": [
+            {
+                "type": "text",
+                "text": "When you look around and read a bad situation, roll +Sharp."
+            },
+            {
+                "type": "text",
+                "text": "On a 10+ hold 3, and on a 7-9, hold 1."
+            },
+            {
+                "type": "list",
+                "text": "One hold can be spent to ask the Keeper one of the following questions:",
+                "list": ["What's my best way in?", "What's my best way out?", "Are there any dangers that we haven't noticed?", "What's the biggest threat?", "What's most vulnerable to me?", "What's the best way to protect the victims?"]
+            },
+            {
+                "type": "text",
+                "text": "If you act on the answers, you get +1 ongoing while the information is relevant."
+            }
+        ]
     }
 ]
