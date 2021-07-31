@@ -34,25 +34,26 @@ let sheet = {
     loadBasicMoves: function () {
         $("#moves-basic").html("");
         sheet.basicMoves.forEach(function (item, index, array) {
-            if (item.stat != "Weird" || (item.stat == "Weird" && item.name == sheet.allChars[selectedChar].weirdMove)) {
+            if (item.stat != "Weird" || (item.stat == "Weird" && item.name == sheet.allChars[sheet.selectedChar].weirdMove)) {
                 let fullMove = $("<div>").addClass("move");
 
                 let moveName = $("<div>").addClass("move-name").addClass(item.stat).html(item.name);
                 fullMove.append(moveName);
+                let moveWrapper = $("<div>").addClass("move-wrapper").attr("move-id", item.id);
 
                 item.text.forEach(function (jitem, jindex, jarray) {
                     let moveText = $("<p>").addClass("move-text").html(jitem.text);
-                    fullMove.append(moveText);
+                    moveWrapper.append(moveText);
                     if (jitem.type == "list") {
                         let moveList = $("<ul>");
                         jitem.list.forEach(function (kitem, kindex, karray) {
                             let moveListItem = $("<li>").html(kitem);
                             moveList.append(moveListItem);
                         });
-                        fullMove.append(moveList);
+                        moveWrapper.append(moveList);
                     }
                 });
-
+                fullMove.append(moveWrapper);
                 $("#moves-basic").append(fullMove);
             }
         });
@@ -72,6 +73,8 @@ let sheet = {
             $(".pc-selected").removeClass("pc-selected");
             $(this).addClass("pc-selected");
             sheet.selectedChar = num;
+
+            sheet.loadBasicMoves();
         }
     }
 }

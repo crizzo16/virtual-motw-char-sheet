@@ -1,5 +1,6 @@
 [
     {
+        "id":0,
         "name": "Kick Some Ass",
         "stat": "Tough",
         "text": [
@@ -19,6 +20,7 @@
         ]
     },
     {
+        "id":1,
         "name": "Act Under Pressure",
         "stat": "Cool",
         "text": [
@@ -37,6 +39,7 @@
         ]
     },
     {
+        "id":2,
         "name": "Help Out",
         "stat": "Cool",
         "text": [
@@ -55,6 +58,7 @@
         ]
     },
     {
+        "id":3,
         "name": "Investigate A Mystery",
         "stat": "Sharp",
         "text": [
@@ -66,6 +70,7 @@
         ]
     },
     {
+        "id":4,
         "name": "Manipulate Someone",
         "stat": "Charm",
         "text": [
@@ -86,6 +91,7 @@
         ]
     },
     {
+        "id":5,
         "name": "Protect Someone",
         "stat": "Tough",
         "text": [
@@ -105,6 +111,7 @@
         ]
     },
     {
+        "id":6,
         "name": "Read A Bad Situation",
         "stat": "Sharp",
         "text": [
@@ -128,6 +135,7 @@
         ]
     },
     {
+        "id":7,
         "name": "Use Magic",
         "stat": "Weird",
         "text": [
@@ -161,6 +169,7 @@
         ]
     },
     {
+        "id":8,
         "name": "Empath",
         "stat": "Weird",
         "text": [
@@ -176,6 +185,7 @@
         ]
     },
     {
+        "id":9,
         "name": "Illuminated",
         "stat": "Weird",
         "text": [
@@ -191,6 +201,7 @@
         ]
     },
     {
+        "id":10,
         "name": "No Limits",
         "stat": "Weird",
         "text": [
@@ -207,6 +218,7 @@
         ]
     },
     {
+        "id":11,
         "name": "Past Lives",
         "stat": "Weird",
         "text": [
@@ -227,6 +239,7 @@
         ]
     },
     {
+        "id":12,
         "name": "Sensitive",
         "stat": "Weird",
         "text": [
@@ -242,6 +255,7 @@
         ]
     },
     {
+        "id":13,
         "name": "Trust Your Gut",
         "stat": "Weird",
         "text": [
@@ -257,6 +271,7 @@
         ]
     },
     {
+        "id":14,
         "name": "Telekinesis",
         "stat": "Weird",
         "text": [
@@ -277,6 +292,7 @@
         ]
     },
     {
+        "id":15,
         "name": "Weird Science",
         "stat": "Weird",
         "text": [
