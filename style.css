@@ -35,6 +35,12 @@ h1, h2, h3, h4 {font-family:cursive}
     border: 1px solid green;
 }
 
+.move-name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
 
 
 
