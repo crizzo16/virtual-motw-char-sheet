@@ -50,5 +50,18 @@
         "moves": ["Prescience", "Neural Implants", "Android/Cyborg"],
         "gear": ["Photonic Binoculars", "Instant Translator"],
         "weapon": []
+    },
+    {
+        "id": 4,
+        "name": "Placeholder",
+        "playbook": "The Chosen",
+        "weirdMove": "Telekinesis",
+        "setting": "",
+        "look": "human, face, clothes",
+        "backround": [["Sought out by your nemesis", "Attacked by monsters"], ["True Love", "Mystical Inheritance"], ["No normal life", "Death"]],
+        "ratings": [1,2,1,1,-1],
+        "moves": ["The Big Entrance"],
+        "gear": ["1-armor"],
+        "weapon": ["description of special weapon", "staff (1-harm hand/close)", "artifact (add the 'magic' tag)", "blade (+1 harm)", "heavy (+1 harm)", "wood"]
     }
 ]
