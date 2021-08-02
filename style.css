@@ -1,3 +1,11 @@
+:root {
+    --charm: red;
+    --cool: yellow;
+    --sharp: lime;
+    --tough: cyan;
+    --weird: purple;
+}
+
 body {
     font-family: serif;
 }
@@ -31,9 +39,8 @@ h1, h2, h3, h4 {font-family:cursive}
 .closed {display:none;}
 
 .move {
-    width: 27%;
+    width: 32%;
     margin: 1% 0;
-    padding: 20px;
     border: 1px solid green;
 }
 
@@ -41,6 +48,17 @@ h1, h2, h3, h4 {font-family:cursive}
     text-align: center;
     font-weight: bold;
     font-size: 1.5rem;
+    padding: 5px;
+    font-family: cursive;
+}
+
+.move-wrapper p {
+    padding: 2px 10px;
+    margin: 0;
+}
+
+.move-wrapper ul li {
+    padding-right: 10px;
 }
 
 
@@ -51,11 +69,11 @@ h1, h2, h3, h4 {font-family:cursive}
     padding: 20px;
 }
 
-.pc-button:hover {border: 3px solid black;}
+.pc-button:hover {background:grey;}
 
 .pc-selected {
-    border: 3px solid black;
-    background: hotpink;
+    background: black;
+    color: white;
 }
 
 .border-blue {border:1px solid blue}
@@ -64,10 +82,8 @@ h1, h2, h3, h4 {font-family:cursive}
 .border-red {border:1px solid red}
 
 
-.Tough {
-    background: peachpuff;
-}
-
-.Cool {
-    background: lavender;
-}
+.Charm{background:var(--charm)}
+.Cool{background:var(--cool)}
+.Sharp{background:var(--sharp)}
+.Tough{background:var(--tough)}
+.Weird{background:var(--weird)}
